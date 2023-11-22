@@ -11,57 +11,58 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: '',
+    twitter: 'JunseoKim0103',
+    mastodon: '',
     facebook: '',
-    instagram: '',
+    instagram: 'junisfree_',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: 'hazzisss5249',
+    dev: 'hazzisss5249',
+    stackoverflow: 'hazzisss5249', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://github.com/JunseoKim0103',
+    phone: '010-9015-1606',
+    email: 'hazzisss5249@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/14tIS-J03VHhF4fIhsWe9e3xtxXl4SaLB/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Python',
+    'sklearn',
+    'Pytorch',
+    'TensorFlow',
+    'MongoDB',
+    'C',
+    'C++'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'SungKyunKwan Univ.',
+      position: 'President of students in Statistics',
+      from: 'March 2021',
+      to: 'Feburary 2022',
+      companyLink: 'https://github.com/JunseoKim0103',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'LikeLion',
+      position: 'President of the LikeLion of Sungkyunkwan University',
+      from: 'July 2021',
+      to: 'Present',
+      companyLink: 'https://likelion.university/',
     },
   ],
   /* certifications: [
@@ -74,40 +75,40 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'SungKyunKwan Univ.',
+      degree: 'Statistics',
+      from: 'March 2019',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'SungKyunKwan Univ.',
+      degree: 'Software',
+      from: 'March 2020',
+      to: 'Present',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: '기상청 주관 2023 날씨 빅데이터 콘테스트',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        '기상에 따른 계절별 지면온도 산출 기술 개발" 분야에서 기상청장상(2등)을 수상한 프로젝트',
+      imageUrl: 'https://i.namu.wiki/i/B6zVCv9160FMrjv3zrKwscCMUGpkJ8xdNlIO1A2Sww1zJaRiBQEydQlxefEqIcQpS7U_eSqBP2ydN21IMbmF1w.svg',
+      link: 'https://github.com/23-Weather-Bigdata-Contest/23-Weather-Bigdata-Contest',
     },
     {
-      title: 'Project Name',
+      title: 'ICT Enterprise Researcher–Presentation evaluation models with multimodal',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        '한국인의 발표 긴장 문제를 해결하기 위한 멀티모달 기반 발표 평가 모델 제작',
+      imageUrl: 'https://mblogthumb-phinf.pstatic.net/20160923_68/by267_14745891820048o1gY_JPEG/%BC%BA%B1%D5%B0%FC%B4%EB%C7%D0%B1%B3%B7%CE%B0%ED-02.jpg?type=w800',
+      link: 'https://github.com/ai-project-2023/Speech_grading_multimodal',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
